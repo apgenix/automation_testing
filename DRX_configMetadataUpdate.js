@@ -9,6 +9,7 @@ var txService = com.polarion.platform.core.PlatformContext.getPlatform().lookupS
 var projectId = scope.id.toString().split(" ");
 projectId = projectId[projectId.length - 1];
 projectId = projectId.substring(0, projectId.length - 1);
+logger.info("Testing"+" "+projectId);
 var userVault = userVault;
 function CreatRepFunctionWithRW() {
 	try {
