@@ -62,6 +62,7 @@ function getBaseRevision(doc, allowedBaselineNames, workItem, callback) {
 				revisionNo: revisionNo,
 				revisionName: revisionName,
 				docName: docRev.getTitleOrName(),
+				logger.info("DocName"+docName);
 				id: docRev.getId(),
 				docStatus: docRev.getStatus().getName(),
 				doctype: docRev.getType().getName(),
